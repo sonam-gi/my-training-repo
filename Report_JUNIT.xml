@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="134.135">
+    <testcase classname="eLearning Signup and Mail" name="Validate eLearning Signup and mail" time="133.445">
+        <system-out><![CDATA[Given User has access to eLearning HomePage.................................passed
+When User navigates to the eLearning HomePage...............................passed
+And User Clicks on Signup button............................................passed
+Then Registration page is displayed.........................................passed
+When user fills in all mandatory values "Firstname123","lastname123","email123@email.com","username102","acbdqwer1234","acbdqwer1234".passed
+And User clicks on Register button..........................................passed
+Then User Registration should be successful and should display Welcome Message with "Firstname123".passed
+When User clicks on homepage................................................passed
+And Clicks on Compose.......................................................passed
+And enters receipient address, subject and message "vir", "Test Subject", "This is my test email".passed
+And Clicks on Send Message button...........................................passed
+Then Mail is sent successfully and a Confirmation of mail sent to "vir" is displayed.passed
+]]></system-out>
+    </testcase>
+</testsuite>
